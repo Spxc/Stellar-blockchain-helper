@@ -44,7 +44,7 @@ Returns
 
 ## Examples
 Fetch account pool balances
-```
+```node
 const account = 'GA5GP75JXAMWQZWQI56X46EGYSCTQEG7AC2FB6UGMLCZNBQV3LNE4EKX';
 
 loadAccountPools(account)
@@ -63,7 +63,7 @@ loadAccountPools(account)
 <br>
 
 Fetch & convert account shares into tokens based off the liquidity pool
-```
+```node
 const poolObject = {
   liquidity_pool_id: '1234567890',
   balance: 1000
