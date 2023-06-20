@@ -15,7 +15,7 @@ npm install stellar-blockchain-helper
 
 ## Usage
 First, require the module in your code:
-```node
+```js
 const { loadAccountPools, loadPoolDetails } = require('stellar-blockchain-helper');
 ```
 <br>
@@ -44,7 +44,7 @@ Returns
 
 ## Examples
 Fetch account pool balances
-```node
+```js
 const account = 'GA5GP75JXAMWQZWQI56X46EGYSCTQEG7AC2FB6UGMLCZNBQV3LNE4EKX';
 
 loadAccountPools(account)
@@ -63,7 +63,7 @@ loadAccountPools(account)
 <br>
 
 Fetch & convert account shares into tokens based off the liquidity pool
-```node
+```js
 const poolObject = {
   liquidity_pool_id: '1234567890',
   balance: 1000
